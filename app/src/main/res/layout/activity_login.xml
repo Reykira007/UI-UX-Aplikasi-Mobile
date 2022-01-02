@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/ic_buku"
+            android:padding="1dp"
+            android:background="@drawable/shape_buku"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in continue"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Alamat Email"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Password"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupa Password?"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="165dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/masuk"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_buku"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anda mahasiswa baru?"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/pindah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar disini"
+            android:textColor="@color/bg_splash"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
