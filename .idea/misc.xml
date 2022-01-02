@@ -4,6 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/PERKULIAHAN/Tugas Kuliah S5/DPM/Dashboard/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable-v24/shape_login.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable/asset.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable/ic_back.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/drawable/shape_buku.xml" value="0.1" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/layout/activity_register.xml" value="0.152" />
+        <entry key="..\:/Users/rearr/Documents/Github/UI-UX-Aplikasi-Mobile/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
     </option>
   </component>

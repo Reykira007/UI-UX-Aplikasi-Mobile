@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/kembali"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:src="@drawable/ic_user"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Nama"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Alamat Email"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Password"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/daftar"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shape_buku"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
